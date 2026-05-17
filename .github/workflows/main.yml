@@ -1,0 +1,11 @@
+name: Saud Ali
+
+on:
+  push:
+    branches: [ main ]
+jobs:
+  kam:
+    runs-on: ubuntu-latest
+    steps:
+      - name: check
+        run: echo "hello aco"
